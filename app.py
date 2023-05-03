@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 
-drug = pickle.load(open('drug.pkl', 'rb'))
+drug = pd.read_pickle('drug.pkl')
 
 st.title('Drug Recommendation System')
 
